@@ -1,0 +1,120 @@
+/* Registration start */
+body{
+    @apply font-Poppins
+}
+.registration{
+@apply bg-[#cf6a87] h-screen
+}
+.registration .left{
+@apply w-[40%]
+ }
+ .registration .left h2{
+    @apply w-full py-10 mx-auto text-center bg-[#3dc1d3] text-[yellow]  font-bold text-4xl rounded-xl
+     }
+ .registration .left form{
+    @apply  px-10 py-5 rounded-xl shadow-lg  
+ }
+ .registration .left input{
+    @apply block w-full my-3 py-2 outline-none px-3 rounded-xl text-xl opacity-[.5] text-black shadow-lg
+ }
+ .registration .left button{
+    @apply block w-full mx-auto my-3  py-2 bg-[#3dc1d3] rounded-xl 
+ }
+.registration .right{
+ @apply w-[50%]
+ }
+ /* Registration End here */
+ /* Login start here */
+    .login{
+      @apply bg-[#636e72] h-screen 
+    }
+    .login .left{
+      @apply w-[40%] mt-40
+    }
+    .login .left h2{
+      @apply bg-[yellow] py-6 text-center text-3xl opacity-[.8] font-Poppins font-bold rounded-xl 
+    }
+    .login .left input{
+      @apply w-full block py-2 my-3 rounded-xl px-2 outline-none
+    }
+    .login .left button{
+      @apply w-full block py-2 my-3 rounded-xl px-2 outline-none bg-[yellow]
+    }
+
+    .login .right{
+      @apply w-[50%] mt-16
+    }
+
+    /* forgot start */
+
+    #forgot input{
+      @apply border border-emerald-500 rounded-md py-1 px-1
+    }
+    #forgot button{
+      @apply border border-emerald-500 bg-lime-600 rounded-md py-1 px-4 my-3 mx-6
+    }
+
+    /* Navbar Start */
+nav .profileAndName{
+  @apply flex items-center gap-5
+}
+nav .profileAndName .img{
+  @apply w-[100px] h-[100px] rounded-full bg-red-500 overflow-hidden
+}
+nav .profileAndName h2{
+  @apply text-white capitalize text-3xl font-medium
+}
+
+nav .menu_items{
+  @apply flex gap-7 text-white text-4xl
+}
+
+/* Main Content start */
+
+.main_content{
+  @apply p-3 flex justify-between flex-wrap mt-5
+}
+.main_content .item{
+  @apply w-[33%]  px-4 bg-lime-400 mb-3 rounded-lg shadow-lg h-[400px] overflow-scroll
+}
+
+/* Title start */
+.title{
+  @apply flex w-full top-0 left-0 sticky justify-between items-center border-2 mb-4 bg-lime-400 text-white rounded-lg
+}
+.title h2{
+  @apply text-2xl font-medium
+}
+/* Title end*/
+
+/* group list */
+
+
+
+/* group List end */
+
+.img .overlay {
+  @apply absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 cursor-pointer 
+}
+.img .overlay svg{
+  @apply absolute text-white text-6xl top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] 
+}
+.modal{
+  @apply absolute h-full w-full bg-green-300 left-0 top-0 z-[999] flex justify-center items-center
+}
+
+.modal .profileImage{
+  @apply w-[50%] p-10 bg-cyan-400 rounded-lg
+}
+
+.modal .profileImage h2{
+  @apply text-4xl text-white font-bold
+}
+
+::-webkit-scrollbar{
+  @apply w-[2px] 
+}
+
+::-webkit-scrollbar-thumb{
+  @apply bg-slate-900 rounded-lg
+}
