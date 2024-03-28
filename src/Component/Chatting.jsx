@@ -69,7 +69,7 @@ onValue(ref(db,'singleMessage'),(snapshot)=>{
     setMessageList(arr)
 })
 
-},[activeChatClice.active.id ])
+},[activeChatClice.active.id])
 
 
 // image Upload start
