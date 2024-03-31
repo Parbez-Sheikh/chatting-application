@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { useDispatch, useSelector } from "react-redux";
 import ProfilePicture from "./ProfilePicture";
-import { activeChat } from "../features/counter/ActiveChatSlice";
+import { activeChat } from "../features/counter/activeChatSlice";
 
 
 const Friends = () => {
