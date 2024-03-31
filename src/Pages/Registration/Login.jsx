@@ -124,7 +124,7 @@ const handleSubmit=(event)=>{
                         }
                        
                         <button type="submit">Login</button>
-                        <p className="">If you don't Register mamber please <Link className="text-red-700 text-xl" to='/'>Registration</Link></p>
+                        <p className="">If you  Register mamber please <Link className="text-red-700 text-xl" to='/'>Registration</Link></p>
                         <p className=""><Link className="text-red-700 text-xl" to='/forgotten'>Forgotten Password</Link></p>
                     </form>
                 </div>
