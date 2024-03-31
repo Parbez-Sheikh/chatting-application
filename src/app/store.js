@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
 import userSlice from '../features/counter/userSlice'
-import activeChatSlice from '../features/counter/ActiveChatSlice'
+import activeChatSlice from '../features/counter/activeChatSlice'
 
 
 export default configureStore({
